@@ -14,6 +14,6 @@ describe('Controller', () => {
 
   it('can test things on the typescript level', () => {
     component.addClicked();
-    expect(component).toBeTruthy();
+    expect(matDialog.open).toHaveBeenCalled();
   });
 });

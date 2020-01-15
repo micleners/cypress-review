@@ -41,54 +41,59 @@ export const Title = () => (
     <br />
     <br />
     <br />
-
+    <Heading size={4} caps lineHeight={1} textColor="lightText">
+      The Hedgehogs
+    </Heading>
+    <Text lineHeight={1.1} textColor="lightText">
+      DL-TheHedgeHogs@corteva.com
+    </Text>
+    <br />
+    <br />
     <FlexRowCenter>
-      <div>
-        <Heading size={4} caps lineHeight={1} textColor="lightText">
-          Michael Leners
-        </Heading>
-        <Heading size={6} lineHeight={1} textColor="lightText">
-          <div
-            style={{
-              display: "flex",
-              flexDirection: "row",
-              justifyContent: "flex-end"
-            }}
-          >
-            <img
-              src={images.twitter}
-              style={{ marginRight: 15 }}
-              width="50px"
-            />{" "}
-            @micLeners
-          </div>
-        </Heading>
-      </div>
-      <Image src={images.dsmjs} style={{ margin: "0 45px" }} width="100px" />
       <div
         style={{
           display: "flex",
           flexDirection: "column",
-          justifyContent: "flex-start",
-          alignItems: "flex-start"
+          alignItems: "flex-end",
+          marginRight: "40px"
         }}
       >
-        <Heading
-          size={6}
-          lineHeight={0.3}
-          style={{ margin: "20px 0 0 0" }}
-          textColor="darkText"
-        >
-          Hosted by
+        <Heading size={4} caps lineHeight={1} textColor="lightText">
+          Dan Rocha
         </Heading>
-        <img src={images.sai} width="500px" />
+    <Text lineHeight={1.1} textColor="lightText">
+          <div>dan.rocha@corteva.com</div>
+        </Text>
+      </div>
+      <div
+        style={{
+          display: "flex",
+          flexDirection: "column",
+          alignItems: "flex-end",
+          marginLeft: "40px"
+        }}
+      >
+        <Heading size={4} caps lineHeight={1} textColor="lightText">
+          Michael Leners
+        </Heading>
+    <Text lineHeight={1.1} textColor="lightText">
+          <div
+          // style={{
+          //   display: "flex",
+          //   flexDirection: "row",
+          //   justifyContent: "flex-end"
+          // }}
+          >
+            michael.leners@corteva.com
+          </div>
+        </Text>
       </div>
     </FlexRowCenter>
     <br />
     <br />
     <br />
     <Heading size={5} caps lineHeight={1} textColor="text">
-      January 14, 2020
+      January 16, 2020
     </Heading>
   </Slide>
 );

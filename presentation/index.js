@@ -202,7 +202,7 @@ export default class Presentation extends React.Component {
         />
         <PipelineImage />
         <PipelineText />
-        <FeatureFlags />
+        {/* <FeatureFlags /> */}
         <TeamDynamics />
         <Auth />
         <CodeSlide
