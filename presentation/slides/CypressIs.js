@@ -53,11 +53,13 @@ export const CypressIs = () => (
           <ListItem>Easy to install</ListItem>
           <ListItemIndent>
             Can setup TypeScript (
-            <a href="https://github.com/bahmutov/add-typescript-to-cypress">
+            <a href="https://github.com/bahmutov/add-typescript-to-cypress" 
+          style={{ textDecoration: "none", color: "#fded07" }}>
               R1
             </a>
             ) (
-            <a href="https://medium.com/joolsoftware/unittesting-angular-components-with-cypress-202a38d9f81a">
+            <a href="https://medium.com/joolsoftware/unittesting-angular-components-with-cypress-202a38d9f81a" 
+          style={{ textDecoration: "none", color: "#fded07" }}>
               R2
             </a>
             )

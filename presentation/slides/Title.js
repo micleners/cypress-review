@@ -32,13 +32,17 @@ const images = {
 export const Title = () => (
   <Slide transition={["zoom"]} bgColor="dark">
     <H1Norm>
-      <span style={{ color: themeColors.yellow }}>Cypress</span> for E2E
-      Testing:
+      <a
+        href="https://www.cypress.io/"
+        style={{ textDecoration: "none", color: "#fded07" }}
+      >
+        Cypress
+      </a>{" "}
+      for E2E Testing:
     </H1Norm>
     <Heading size={3} lineHeight={1.1} textColor="text">
       A Retrospective
     </Heading>
-    <br />
     <br />
     <br />
     <Heading size={4} caps lineHeight={1} textColor="lightText">
@@ -47,7 +51,6 @@ export const Title = () => (
     <Text lineHeight={1.1} textColor="lightText">
       DL-TheHedgeHogs@corteva.com
     </Text>
-    <br />
     <br />
     <FlexRowCenter>
       <div
@@ -61,7 +64,7 @@ export const Title = () => (
         <Heading size={4} caps lineHeight={1} textColor="lightText">
           Dan Rocha
         </Heading>
-    <Text lineHeight={1.1} textColor="lightText">
+        <Text lineHeight={1.1} textColor="lightText">
           <div>dan.rocha@corteva.com</div>
         </Text>
       </div>
@@ -76,7 +79,7 @@ export const Title = () => (
         <Heading size={4} caps lineHeight={1} textColor="lightText">
           Michael Leners
         </Heading>
-    <Text lineHeight={1.1} textColor="lightText">
+        <Text lineHeight={1.1} textColor="lightText">
           <div
           // style={{
           //   display: "flex",

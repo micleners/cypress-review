@@ -32,14 +32,17 @@ export const Alternative = () => (
     <List style={{ marginLeft: 270 }} textColor="text">
       <ListItem>
         Protractor (
-        <a href="https://techblog.fexcofts.com/2018/09/24/end-to-end-e2e-angular-testing-protractor-vs-cypress/">
+        <a href="https://techblog.fexcofts.com/2018/09/24/end-to-end-e2e-angular-testing-protractor-vs-cypress/" 
+          style={{ textDecoration: "none", color: "#fded07" }}>
           R1
         </a>
         ) (
-        <a href="https://hackernoon.com/cypress-io-vs-protractor-e2e-testing-battle-d124ece91dc7">
+        <a href="https://hackernoon.com/cypress-io-vs-protractor-e2e-testing-battle-d124ece91dc7" 
+          style={{ textDecoration: "none", color: "#fded07" }}>
           R2
         </a>
-        ) (<a href="https://watirmelon.blog/category/automated-testing/">R3</a>)
+        ) (<a href="https://watirmelon.blog/category/automated-testing/" 
+          style={{ textDecoration: "none", color: "#fded07" }}>R3</a>)
       </ListItem>
       <ListItem>Shallow mounting with TestBed</ListItem>
     </List>

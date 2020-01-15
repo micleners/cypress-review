@@ -1,4 +1,3 @@
-
 import React from "react";
 import {
   themeColors,
@@ -68,14 +67,16 @@ export const Closing = () => (
       </Text>
       <br />
 
-      <Text
-        lineHeight={1.1}
-        textColor="lightText"
-      >
+      <Text lineHeight={1.1} textColor="lightText">
         cypress-review.micleners.com
       </Text>
       <Text lineHeight={1.1} textColor="lightText">
-        github.com/micleners/cypress-review
+        <a
+          href="https://github.com/micleners/cypress-review"
+          style={{ textDecoration: "none", color: "#fded07" }}
+        >
+          github.com/micleners/cypress-review
+        </a>
       </Text>
     </List>
   </Slide>
