@@ -37,7 +37,7 @@ export const Paid = () => (
     <H2>A magical dashboard 🧙‍♂️</H2>
     <br />
     <List style={{ marginLeft: 75 }} textColor="text">
-      <ListItem>Parallelization, grouping and load balancing</ListItem>
+      <ListItem>Parallelization, grouping, and load balancing</ListItem>
       <ListItem>Insights</ListItem>
       <ListItem>Recording and Screenshots (in dashboard)</ListItem>
       <ListItem>Run in CI (more easily)</ListItem>

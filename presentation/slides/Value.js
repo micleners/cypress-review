@@ -30,8 +30,8 @@ export const Value = () => (
     <H2>It's the gift that keeps on giving 🎁</H2>
     <br />
     <List style={{ marginLeft: 75 }} textColor="text">
-      <ListItem>Catch more defects in development</ListItem>
-      <ListItem>Tighten communication between developer and QA</ListItem>
+      <ListItem>Catches more defects in development</ListItem>
+      <ListItem>Tightens communication between developer and QA</ListItem>
       <ListItem>Serves as regression test suite</ListItem>
     </List>
   </Slide>
