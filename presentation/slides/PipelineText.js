@@ -41,7 +41,7 @@ export const PipelineText = () => (
       <ListItem>
         Screenshots and Videos saved to{" "}
         <a href="https://vs-pioneer.visualstudio.com/project0/_build/results?buildId=175461&view=artifacts&type=publishedArtifacts" 
-          style={{ textDecoration: "none", color: "#fded07" }}>
+          style={{ color: "#fded07" }}>
           build artifact
         </a>
       </ListItem>

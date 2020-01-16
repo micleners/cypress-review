@@ -33,17 +33,18 @@ export const Alternative = () => (
       <ListItem>
         Protractor (
         <a href="https://techblog.fexcofts.com/2018/09/24/end-to-end-e2e-angular-testing-protractor-vs-cypress/" 
-          style={{ textDecoration: "none", color: "#fded07" }}>
+          style={{ color: "#fded07" }}>
           R1
         </a>
         ) (
         <a href="https://hackernoon.com/cypress-io-vs-protractor-e2e-testing-battle-d124ece91dc7" 
-          style={{ textDecoration: "none", color: "#fded07" }}>
+          style={{ color: "#fded07" }}>
           R2
         </a>
         ) (<a href="https://watirmelon.blog/category/automated-testing/" 
-          style={{ textDecoration: "none", color: "#fded07" }}>R3</a>)
+          style={{ color: "#fded07" }}>R3</a>)
       </ListItem>
+      <ListItem>Selenium</ListItem>
       <ListItem>Shallow mounting with TestBed</ListItem>
     </List>
   </Slide>

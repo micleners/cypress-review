@@ -84,35 +84,6 @@ export default class Presentation extends React.Component {
           transition={[]}
           bgColor="dark"
           lang="js"
-          textColor="text"
-          code={require("raw-loader!../assets/controller.example").default}
-          ranges={[
-            { loc: [0, 2], title: "Controller Example (.ts in Jest)" },
-            {
-              loc: [2, 4],
-              title: "Setup Services",
-              note: "Set up authorization service and mock"
-            },
-            {
-              loc: [4, 8],
-              title: "Setup Services",
-              note: "Same for Angular Material dialog service"
-            },
-            {
-              loc: [8, 12],
-              title: "Create Component",
-              note: "Like a good ol' fashioned normal object ☺️"
-            },
-            { loc: [2, 12], title: "Configuring Testing Module?" },
-            { loc: [2, 12], title: "Configuring Testing Module 🎉" },
-            { loc: [14, 18], title: "Testing Dialog Modal" }
-          ]}
-        />
-        <CodeSlide
-          className="code"
-          transition={[]}
-          bgColor="dark"
-          lang="js"
           textColor="dark"
           code={require("raw-loader!../assets/testbed.example").default}
           ranges={[
@@ -166,6 +137,36 @@ export default class Presentation extends React.Component {
             { loc: [21, 30], title: "Testing Dialog Modal" }
           ]}
         />
+        <CodeSlide
+          className="code"
+          transition={[]}
+          bgColor="dark"
+          lang="js"
+          textColor="text"
+          code={require("raw-loader!../assets/controller.example").default}
+          ranges={[
+            { loc: [0, 2], title: "Controller Example (.ts in Jest)" },
+            {
+              loc: [2, 4],
+              title: "Setup Services",
+              note: "Set up authorization service and mock"
+            },
+            {
+              loc: [4, 8],
+              title: "Setup Services",
+              note: "Same for Angular Material dialog service"
+            },
+            {
+              loc: [8, 12],
+              title: "Create Component",
+              note: "Like a good ol' fashioned normal object ☺️"
+            },
+            { loc: [2, 12], title: "Configuring Testing Module?" },
+            { loc: [2, 12], title: "Configuring Testing Module 🎉" },
+            { loc: [14, 18], title: "Testing Dialog Modal" }
+          ]}
+        />
+
         <CodeSlide
           className="code"
           transition={[]}
@@ -257,14 +258,12 @@ export default class Presentation extends React.Component {
             {
               loc: [5, 12],
               title: "Mocking API Return Values",
-              note:
-                "Mock data for API to return"
+              note: "Mock data for API to return"
             },
             {
               loc: [14, 28],
               title: "Set Up Response from URL",
-              note:
-                "Mocking API Return Values"
+              note: "Mocking API Return Values"
             },
             { loc: [29, 38], title: "Check DOM for Expected Behavior" }
           ]}

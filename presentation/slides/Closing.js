@@ -73,7 +73,7 @@ export const Closing = () => (
       <Text lineHeight={1.1} textColor="lightText">
         <a
           href="https://github.com/micleners/cypress-review"
-          style={{ textDecoration: "none", color: "#fded07" }}
+          style={{ color: "#fded07" }}
         >
           github.com/micleners/cypress-review
         </a>
